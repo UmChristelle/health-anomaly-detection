@@ -19,7 +19,7 @@ st.set_page_config(
 # -------------------------
 @st.cache_data
 def load_data():
-    df = pd.read_csv("health_anomalies.csv")
+    df = pd.read_csv("new_health_anomalies.csv")
     df['timestamp'] = pd.to_datetime(df['timestamp'])
     return df
 
