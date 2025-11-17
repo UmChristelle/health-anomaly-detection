@@ -24,14 +24,22 @@ git clone https://github.com/UmChristelle/health-anomaly-detection.git
 cd health-anomaly-detection
 ```
 2. Install dependencies:
+   
    pip install -r app/requirements.txt
+
+   
 3. Run the Streamlit dashboard locally:
+
    streamlit run app/app.py
+
+   
 4. pen your browser at the address provided by Streamlit (usually http://localhost:8501).
    Live Demo
 
 Access the deployed dashboard here:
 https://health-anomaly-detection.onrender.com
+
+
 5. Report
 The full project report is located in the report/ folder. It contains:
 
@@ -53,14 +61,16 @@ Plotly: Interactive visualizations
 
 6. Author
 Christella Umutoni
-GitHub: YOUR_GITHUB_LINK
+GitHub: https://github.com/UmChristelle
 Email: umutonichristella17@gmail.com
 
-Acknowledgements
+ 
+7. Acknowledgements
 
 
 PhysioNet – For public health datasets
 Python Libraries: TensorFlow, Scikit-learn, Pandas, NumPy, Streamlit, Plotly
 Render – For hosting the dashboard  
+
 
 
